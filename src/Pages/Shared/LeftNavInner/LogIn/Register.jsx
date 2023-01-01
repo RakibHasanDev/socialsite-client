@@ -12,7 +12,7 @@ const Register = ({ setIsModal, isModal }) => {
     reset,
   } = useForm();
 
-  const imgbb = process.env.REACT_APP_imagebbAPI;
+  const imgbb = process.env.REACT_APP_imgbb_key;
   const googleProvider = new GoogleAuthProvider();
 
   const { createUser, updateUser, googleUser, verifyUser, loading } =

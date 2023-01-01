@@ -12,7 +12,8 @@ const PostModal = () => {
   const [readValue, setReadValue] = useState("");
 
   const { register, handleSubmit, reset } = useForm();
-  const imgbb = process.env.REACT_APP_imagebbAPI;
+  const imgbb = process.env.REACT_APP_imgbb_key;
+
 
   const submit = (data) => {
     const date = Date.now();
